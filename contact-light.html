@@ -283,55 +283,51 @@
                      </div>
 
                      <div class="tj-contact-form">
-                        <form id="contact-form">
+                        <form id="contact-form" action=".send_email.php" method="POST">
                            <div class="row gx-3">
-                              <div class="col-sm-6">
-                                 <div class="form_group">
-                                    <input type="text" name="conName" id="conName" placeholder="First name"
-                                       autocomplete="off" />
-                                 </div>
-                              </div>
-                              <div class="col-sm-6">
-                                 <div class="form_group">
-                                    <input type="text" name="conLName" id="conLName" placeholder="Last name"
-                                       autocomplete="off" />
-                                 </div>
-                              </div>
-                              <div class="col-sm-6">
-                                 <div class="form_group">
-                                    <input type="email" name="conEmail" id="conEmail" placeholder="Email address"
-                                       autocomplete="off" />
-                                 </div>
-                              </div>
-                              <div class="col-sm-6">
-                                 <div class="form_group">
-                                    <input type="tel" name="conPhone" id="conPhone" placeholder="Phone number"
-                                       autocomplete="off" />
-                                 </div>
-                              </div>
-                              <div class="col-12">
-                                 <div class="form_group">
-                                    <select name="conService" id="conService" class="tj-nice-select">
-                                       <option value="" selected disabled>Choose Service</option>
-                                       <option value="braning">Branding Design</option>
-                                       <option value="web">Web Design</option>
-                                       <option value="uxui">UI/UX Design</option>
-                                       <option value="app">App Design</option>
-                                    </select>
-                                 </div>
-                              </div>
-                              <div class="col-12">
-                                 <div class="form_group">
-                                    <textarea name="conMessage" id="conMessage" placeholder="Message"></textarea>
-                                 </div>
-                              </div>
-                              <div class="col-12">
-                                 <div class="form_btn">
-                                    <button type="submit" class="btn tj-btn-primary">Send Message</button>
-                                 </div>
-                              </div>
+                               <div class="col-sm-6">
+                                   <div class="form_group">
+                                       <input type="text" name="conName" id="conName" placeholder="First name" autocomplete="off" required />
+                                   </div>
+                               </div>
+                               <div class="col-sm-6">
+                                   <div class="form_group">
+                                       <input type="text" name="conLName" id="conLName" placeholder="Last name" autocomplete="off" required />
+                                   </div>
+                               </div>
+                               <div class="col-sm-6">
+                                   <div class="form_group">
+                                       <input type="email" name="conEmail" id="conEmail" placeholder="Email address" autocomplete="off" required />
+                                   </div>
+                               </div>
+                               <div class="col-sm-6">
+                                   <div class="form_group">
+                                       <input type="tel" name="conPhone" id="conPhone" placeholder="Phone number" autocomplete="off" required />
+                                   </div>
+                               </div>
+                               <div class="col-12">
+                                   <div class="form_group">
+                                       <select name="conService" id="conService" class="tj-nice-select" required>
+                                           <option value="" selected disabled>Choose Service</option>
+                                           <option value="web">Web Development</option>
+                                           <option value="ecommerce">E-commerce Solutions</option>
+                                           <option value="portfolio">Portfolio Projects</option>
+                                           <option value="responsive">Responsive Design</option>
+                                       </select>
+                                   </div>
+                               </div>
+                               <div class="col-12">
+                                   <div class="form_group">
+                                       <textarea name="conMessage" id="conMessage" placeholder="Message" required></textarea>
+                                   </div>
+                               </div>
+                               <div class="col-12">
+                                   <div class="form_btn">
+                                       <button type="submit" class="btn tj-btn-primary">Send Message</button>
+                                   </div>
+                               </div>
                            </div>
-                        </form>
+                       </form>  
                      </div>
                   </div>
                </div>
@@ -340,13 +336,13 @@
                   <div class="contact-info-list">
                      <ul class="ul-reset">
                         <li class="d-flex flex-wrap align-items-center position-relative wow fadeInRight"
-                           data-wow-delay=".4s">
+                           data-wow-delay=".2s">
                            <div class="icon-box">
                               <i class="flaticon-phone-call"></i>
                            </div>
                            <div class="text-box">
                               <p>Phone</p>
-                              <a href="tel:0123456789">+91 6354864623</a>
+                              <a href="tel:6354864623" target="_blank">+91 6354864623</a>
                            </div>
                         </li>
                         <li class="d-flex flex-wrap align-items-center position-relative wow fadeInRight"
@@ -356,7 +352,7 @@
                            </div>
                            <div class="text-box">
                               <p>Email</p>
-                              <a href="mailto:mail@mail.com">prajapatiyagnik64@gmail.com</a>
+                              <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=infodeveloperyp@gmail.com&amp;su=Hiring%20Inquiry" target="_blank">infodeveloperyp@gmail.com</a>
                            </div>
                         </li>
                         <li class="d-flex flex-wrap align-items-center position-relative wow fadeInRight"
@@ -366,7 +362,7 @@
                            </div>
                            <div class="text-box">
                               <p>Address</p>
-                              <a href="#">A-401 Pratistha Sky, <br />Haridarshan Cross Raod ,Ahmedabad 382330, India</a>
+                              <a  href="https://www.google.com/maps/place/Pratishtha+Sky/@23.0711266,72.6707825,17z/data=!3m1!4b1!4m6!3m5!1s0x395e871466a7da81:0x397df92a9e689b03!8m2!3d23.0711217!4d72.6733574!16s%2Fg%2F11fkcc__zk?entry=ttu&g_ep=EgoyMDI0MTAxNi4wIKXMDSoASAFQAw%3D%3D" target="_blank">A-401 Pratistha Sky, <br />Haridarshan Cross Raod ,Ahmedabad 382330, India</a>
                            </div>
                         </li>
                      </ul>
@@ -425,6 +421,49 @@
    <script src="assets/js/validate.min.js"></script>
    <script src="assets/js/meanmenu.js"></script>
    <script src="assets/js/main.js"></script>
+   <!-- <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+   <script type="text/javascript">
+      // Initialize EmailJS with your public key
+      emailjs.init("VRrG-J8HQ1EP_r4Qn");  // Your correct public API key here
+  
+      // Handle form submission
+      document.getElementById("contact-form").addEventListener("submit", function(event){
+          event.preventDefault();  // Prevent default form submission
+  
+          // Collect form data
+          var firstName = document.getElementById("conName").value;
+          var lastName = document.getElementById("conLName").value;
+          var email = document.getElementById("conEmail").value;
+          var phone = document.getElementById("conPhone").value;
+          var service = document.getElementById("conService").value;
+          var message = document.getElementById("conMessage").value;
+  
+          // Create template parameters to send in email
+          var templateParams = {
+              first_name: firstName,
+              last_name: lastName,
+              email: email,
+              phone: phone,
+              service: service,
+              message: message
+          };
+  
+          console.log("Sending data to EmailJS: ", templateParams);  // Debugging log for data being sent
+  
+          // Send email using EmailJS
+          emailjs.send("service_uh7qzuf", "template_rv12rup", templateParams)
+              .then(function(response) {
+                  alert("Message sent successfully!");
+                  console.log("EmailJS response:", response);  // Log response to confirm success
+              }, function(error) {
+                  alert("Failed to send message.");
+                  console.log("EmailJS error:", error);  // Log error details
+              });
+      });
+  </script> -->
+  
+  
+
 </body>
 
 </html>
